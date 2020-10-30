@@ -11,7 +11,7 @@ def leitor ():
 
         reader = csv.reader(lido, quoting=csv.QUOTE_MINIMAL)
         for row in reader:
-            if(row[3]=='Country_Region' or row[3]=='Holy See' or row[3]=='Cote d\'Ivoire' or row[3]=='Diamond Princess' or row[3]=='MS Zaandam' or row[3]=='Tajikistan' or row[3]=='Congo (Brazzaville)' or  row[3]=='Solomon Islands'):continue 
+            if(row[3]=='Country_Region' or row[3]=='Holy See' or row[3]=='Cote d\'Ivoire' or row[3]=='Diamond Princess' or row[3]=='MS Zaandam' or row[3]=='Tajikistan' or row[3]=='Congo (Brazzaville)' or  row[3]=='Solomon Islands' or row[3]=='Marshall Islands'):continue 
             if(l[3]=='Afghasssnistan'): l = row
             elif(l[3]==row[3]):
                 row=fazcontas(row,l)
